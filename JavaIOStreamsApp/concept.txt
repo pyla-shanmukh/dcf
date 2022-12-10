@@ -1,0 +1,1 @@
+The BufferedOutputStream class, java.io.BufferedOutputStream, is used to capture bytes written to the BufferedOutputStream in a buffer, and write the whole buffer in one batch to an underlying Java OutputStream for iincreased performance. Buffering can spread up IO quite a bit, especially when writing data to disk access or network.
